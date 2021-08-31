@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <section class="home img-fluid">
+      <div class="container pt-4">
+        <header class="d-flex pt-2">
+          <div class="book-icon">
+            <i class="fas fa-book-open"></i>
+          </div>
+          <div class="title-header">
+            <h1 class="pt-4">Library</h1>
+          </div>
+        </header>
+        <div class="successPopup">Book added successfully!!</div>
+        <h2 class="brandLine">Keep track of the books you read.</h2>
+        <div class="btn-add">Add Book</div>
+      </div>
+    </section>
+
+    <section class="yourBooks" id="books">
+      <h2>Your Books</h2>
+      <section class="bookContainer"></section>
+    </section>
+
+    <div class="formContainer row">
+      <div class="col col-lg-4 justify-content-center align-items-center">
+        <form action="/" method="GET">
+          <div class="close">+</div>
+          <div class="box">
+            <div>
+              <input type="text" name="" required id="" />
+              <label for="">Title of Book</label>
+            </div>
+          </div>
+          <div class="box">
+            <div>
+              <input type="text" class="writer" name="" required id="" />
+              <label for="">Author</label>
+            </div>
+          </div>
+          <div class="box">
+            <div>
+              <input type="number" class="page" name="" required id="" />
+              <label for="">No of Pages</label>
+            </div>
+          </div>
+          <div class="box">
+            <div>
+              <input type="text" class="readStatus" name="" required id="" />
+              <label for="">Already read?(YES/NO)</label>
+            </div>
+          </div>
+
+          <div class="text-center">
+            <button
+              type="submit"
+              name=""
+              class="skewBtn submit text-center orange"
+            >
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- <div class="book-container">
+    <div class="info">
+      Mobile - Try tapping
+    </div>
+    <div class="mobile-layout">
+      <div class="notification-header">
+        <div class="time">
+          9:41
+        </div>
+        <div class="necessities">
+          <i class="fas fa-signal"></i>
+          <i class="fas fa-wifi"></i>
+          <i class="fas fa-battery-full"></i>
+        </div>
+      </div>
+      <div class="actions">
+        <i class="fas fa-chevron-left"></i>
+        <i class="fas fa-bookmark"></i>
+      </div>  
+      <div class="book-cover">
+          <img class="book-top" src="https://saranyamk.github.io/images-repo/book-top.svg" alt="book-top" />
+        <img class="book-side" src="https://saranyamk.github.io/images-repo/book-side.svg" alt="book-side" /> 
+      </div>
+      <div class="preface">
+        <div class="content">
+          <div class="header">
+            <div class="title">The Diary of a Young Girl</div>
+            <div class="icon">
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </div>
+          <div class="author">by Anne Frank</div>
+          <div class="body">
+            <p>
+              also known as The Diary of Anne Frank, is a book of the writings from the Dutch-language diary kept by Anne Frank while she was in hiding for two years with her family during the Nazi occupation of the Netherlands
+            </p>
+            <p>
+              Anne calls her diary "Kitty", so almost all of the letters are written to Kitty. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   -->
+    <!--
+  https://saranyamk.github.io/images-repo/book-top.svg
+  https://saranyamk.github.io/images-repo/book-side.svg
+  -->
+
+    <!-- <div class="imgLoader"></div> -->
+
+    <!-- <div class="container">
+    <div class="turn-page-container">
+  
+      <h1 class="turn-title">
+        Turning pages<br>with css
+      </h1>
+    
+      
+    
+      <div class="turn-book">
+        <div class="gap"></div>
+        <div class="pages">
+          <div class="page"></div>
+          <div class="page"></div>
+          <div class="page"></div>
+          <div class="page"></div>
+          <div class="page"></div>
+          <div class="page"></div>
+        </div>
+        <div class="flips">
+          <div class="flip flip1">
+            <div class="flip flip2">
+              <div class="flip flip3">
+                <div class="flip flip4">
+                  <div class="flip flip5">
+                    <div class="flip flip6">
+                      <div class="flip flip7"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+    <!--   
+  <a href="https://twitter.com/amit_sheen" class="twitterLink" target="_top">
+     <img src="https://assets.codepen.io/1948355/twitterLogo2.png" />
+  </a> -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/main.js"></script>
+  </body>
+</html>
