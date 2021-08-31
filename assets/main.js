@@ -145,7 +145,7 @@ function displayBook(book) {
 
     //for creating div page no
     const no_of_pages = document.createElement('div');
-    no_of_pages.innerHTML = '<span>No of Page:</span>' + book.pages
+    no_of_pages.innerHTML = '<span>No of Pages:</span>' + book.pages
     //console.log(pages);
     no_of_pages.classList.add('div');
     cardContent.appendChild(no_of_pages)
