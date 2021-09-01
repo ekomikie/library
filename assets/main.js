@@ -180,7 +180,7 @@ function displayBook(book) {
     toggleLabel.appendChild(toggleSpan);
 
     //set toggleInput value as per staus of book
-    if (book.status === true || book.status === 'yes') {
+    if (book.status === true || book.status === 'Yes') {
         toggleInput.checked = true;
         status.innerHTML = '<span>Status:</span>' + 'Read';
     } else {
